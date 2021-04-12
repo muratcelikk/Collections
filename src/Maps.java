@@ -4,7 +4,7 @@ import java.util.SortedMap;
 import java.util.TreeMap;
 
 /**
- * @author Murat Çelik 19:58:53 9 Nis 2021
+ * @author Murat Ã‡elik 19:58:53 9 Nis 2021
  *
  */
 public class Maps {
@@ -22,7 +22,7 @@ public class Maps {
 		hm.put(3, "HP");
 		hm.put(5, "Huawei");
 
-		// Element güncelle (key e göre-->4);
+		// Element gÃ¼ncelle (key e gÃ¶re-->4);
 //		hm.put(4, "Sony");
 
 		// Yinelenen veri eklenebilir.
@@ -38,7 +38,7 @@ public class Maps {
 		// null ekle;
 //		hm.put(5, null);
 
-		// boşluk ekle;
+		// boÅŸluk ekle;
 //		hm.put(5, " ");
 
 		System.out.println("HashMap: ");
@@ -46,12 +46,12 @@ public class Maps {
 		for (Integer cep : hm.keySet()) {
 			System.out.println(cep + "-" + hm.get(cep));
 		}
-//		hm.forEach((sıraNo, pcAdı)->System.out.println(sıraNo + "-" + pcAdı));
+//		hm.forEach((sÄ±raNo, pcAdÄ±)->System.out.println(sÄ±raNo + "-" + pcAdÄ±));
 
 //HASHMAP:
 //Yinelenen element eklenmez.		
-//Elementler sıralıdır(ASC)		
-//Boşluk ve null eklenebilir.
+//Elementler sÄ±ralÄ±dÄ±r(ASC)		
+//BoÅŸluk ve null eklenebilir.
 System.out.println("------------------");
 
 
@@ -61,18 +61,18 @@ System.out.println("------------------");
 		///////////////
 
 		Hashtable<Integer, String> alisveris = new Hashtable<>();
-		alisveris.put(1, "Binboğa Bal");
+		alisveris.put(1, "BinboÄŸa Bal");
 		alisveris.put(2, "Koska Pekmez");
 		alisveris.put(3, "Kavurma");
-		alisveris.put(4, "Kaşar Peynir");
+		alisveris.put(4, "KaÅŸar Peynir");
 		alisveris.put(5, "Beyaz Peynir");
 
 		// Yinelenen element eklenmez.
-//		alisveris.put(2, "Salça");
-//		alisveris.put(2, "Salça");
+//		alisveris.put(2, "SalÃ§a");
+//		alisveris.put(2, "SalÃ§a");
 
-		// Element güncelle (key e göre-->2);
-//		alisveris.put(2, "Salça");
+		// Element gÃ¼ncelle (key e gÃ¶re-->2);
+//		alisveris.put(2, "SalÃ§a");
 
 		// Element sil;
 //		alisveris.remove(2);
@@ -83,7 +83,7 @@ System.out.println("------------------");
 		// null eklenmez;
 //		alisveris.put(6, null);
 
-		// boşluk eklenir;
+		// boÅŸluk eklenir;
 //		alisveris.put(6, " ");
 
 		System.out.println("**HashTable: ");
@@ -94,9 +94,9 @@ System.out.println("------------------");
 
 //HASHTABLE:
 //Yinelenen element eklenmez.
-//Elementler sıralıdır(DESC) <===		
+//Elementler sÄ±ralÄ±dÄ±r(DESC) <===		
 //null eklenmez.
-//Boşluk eklenir.	
+//BoÅŸluk eklenir.	
 System.out.println("------------------");
 
 
@@ -109,15 +109,15 @@ System.out.println("------------------");
 		cafeMenu.put(1, "Hamburger");
 		cafeMenu.put(2, "Tost");
 		cafeMenu.put(5, "Pasta");
-		cafeMenu.put(3, "Köfte");
+		cafeMenu.put(3, "KÃ¶fte");
 		cafeMenu.put(4, "Cheeseburger");
 
 		// Element ekle;
 //		cafeMenu.put(6, "Tost");
 //		cafeMenu.put(5, "Tost");
 
-		// Element güncelle (key e göre-->2);
-//		cafeMenu.put(2, "Föndü");
+		// Element gÃ¼ncelle (key e gÃ¶re-->2);
+//		cafeMenu.put(2, "FÃ¶ndÃ¼");
 
 		// Element sil;
 //		cafeMenu.remove(2);
@@ -125,7 +125,7 @@ System.out.println("------------------");
 		// null eklenir;
 //		cafeMenu.put(6, null);
 
-		// boşluk eklenir;
+		// boÅŸluk eklenir;
 //		cafeMenu.put(6, " ");
 
 		// Element boyutu;
@@ -139,9 +139,9 @@ System.out.println("------------------");
 
 //TREEMAP:
 //Yinelenen element eklenmez.		
-//Elementler sıralıdır(ASC)
+//Elementler sÄ±ralÄ±dÄ±r(ASC)
 //null eklenir.
-//Boşluk eklenir.
+//BoÅŸluk eklenir.
 System.out.println("------------------");
 
 
@@ -153,14 +153,14 @@ System.out.println("------------------");
 		SortedMap<Integer, String> employee = new TreeMap<>();
 		employee.put(1, "Murat");
 		employee.put(2, "Mesut");
-		employee.put(5, "Fırat");
+		employee.put(5, "FÄ±rat");
 		employee.put(3, "Veli");
 		employee.put(4, "Sultan");
 
 		// Element ekle;
 //	employee.put(6, "Sultan");
 
-		// Element güncelle (key e göre-->2);
+		// Element gÃ¼ncelle (key e gÃ¶re-->2);
 //	employee.put(2, "Esin");
 
 		// Element sil;
@@ -169,7 +169,7 @@ System.out.println("------------------");
 		// null eklenir;
 //	employee.put(5, null);
 
-		// boşluk eklenir;
+		// boÅŸluk eklenir;
 //	employee.put(6, " ");
 
 		// Element boyutu;
@@ -183,9 +183,9 @@ System.out.println("------------------");
 
 //SORTEDMAP:
 //Yinelenen element eklenmez.
-//Elementler sıralıdır(ASC)
+//Elementler sÄ±ralÄ±dÄ±r(ASC)
 //null eklenir
-//Boşluk eklenir	
+//BoÅŸluk eklenir	
 
 	}
 }

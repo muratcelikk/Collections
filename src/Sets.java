@@ -5,7 +5,7 @@ import java.util.SortedSet;
 import java.util.TreeSet;
 
 /**
- * @author Murat Çelik 01:40:02 9 Nis 2021
+ * @author Murat Ã‡elik 01:40:02 9 Nis 2021
  *
  */
 public class Sets {
@@ -18,42 +18,42 @@ public class Sets {
 
 		HashSet<String> tatli = new HashSet<>();
 		tatli.add("Baklava");
-		tatli.add("Kadayýf");
-		tatli.add("Þekerpare");
-		tatli.add("Künefe");
+		tatli.add("KadayÄ±f");
+		tatli.add("Åžekerpare");
+		tatli.add("KÃ¼nefe");
 		tatli.add("Revani");
 
 		// Yinelenen element ekle
-//		tatli.add("Lokum");  //ÖNEMLÝ NOT:YÝNELENEN ELEMENT EKLENMEZ.
+//		tatli.add("Lokum");  //Ã–NEMLÄ° NOT:YÄ°NELENEN ELEMENT EKLENMEZ.
 
-		// Elementler sýrasýzdýr. Rastgele sýralanýr.
-//		tatli.add("Burma Kadayýf"); 
-//		tatli.add("Bülbül Yuvasý");
-//		tatli.add("KemalPaþa"); 
+		// Elementler sÄ±rasÄ±zdÄ±r. Rastgele sÄ±ralanÄ±r.
+//		tatli.add("Burma KadayÄ±f"); 
+//		tatli.add("BÃ¼lbÃ¼l YuvasÄ±");
+//		tatli.add("KemalPaÅŸa"); 
 
-		// Element sil (Ýstenilen);
-//		tatli.remove("Revani"); //Ýstenilen element silinir.
+		// Element sil (Ä°stenilen);
+//		tatli.remove("Revani"); //Ä°stenilen element silinir.
 
-		// " " (boþluk) ekle(en baþa);
-//		tatli.add(" ");  //ÖNEMLÝ NOT:Boþluk eklenir. Yinelenen eklenmez.
+		// " " (boÅŸluk) ekle(en baÅŸa);
+//		tatli.add(" ");  //Ã–NEMLÄ° NOT:BoÅŸluk eklenir. Yinelenen eklenmez.
 
-		// "null" ekle(en baþa);
+		// "null" ekle(en baÅŸa);
 //		tatli.add(null);  //null eklenir. Yinelenen eklenmez.
 
-		// Element sayýsý;
+		// Element sayÄ±sÄ±;
 //		System.out.println(tatli.size());
 
 		System.out.println("HashSet; ");
 		System.out.println(" ");
-//		Bütün elementleri listele;
+//		BÃ¼tÃ¼n elementleri listele;
 		for (String leziz : tatli) {
 			System.out.println(leziz);
 		}
 
 //HASHSET: 
 //Yinelenen element eklenmez.		
-//Elementler sýrasýzdýr. Rastgele sýralanýr.		
-//Boþluk ve null eklenir.
+//Elementler sÄ±rasÄ±zdÄ±r. Rastgele sÄ±ralanÄ±r.		
+//BoÅŸluk ve null eklenir.
 System.out.println("----------------");
 
 		
@@ -63,36 +63,36 @@ System.out.println("----------------");
 		///////////////////
 
 		LinkedHashSet<String> il = new LinkedHashSet<>();
-		il.add("Ýstanbul");
+		il.add("Ä°stanbul");
 		il.add("Ankara");
-		il.add("Ýzmir");
+		il.add("Ä°zmir");
 		il.add("Tunceli");
 		il.add("Artvin");
 
 		// Yinelenen element ekle
-//		il.add("Tunceli");  //ÖNEMLÝ NOT:YÝNELENEN ELEMENT EKLENMEZ.
+//		il.add("Tunceli");  //Ã–NEMLÄ° NOT:YÄ°NELENEN ELEMENT EKLENMEZ.
 
 		// Element ekle(en sona).
-//		il.add("Sivas"); //ÖNEMLÝ NOT: Elementler en sona yazýldýðý sýra ile eklenir.
+//		il.add("Sivas"); //Ã–NEMLÄ° NOT: Elementler en sona yazÄ±ldÄ±ÄŸÄ± sÄ±ra ile eklenir.
 //		il.add("Samsun");
 
 		// null ekle(en sona)
 //		il.add(null);
 
-		// Boþluk ekle(en sona)
+		// BoÅŸluk ekle(en sona)
 //		il.add(" ");
 
 		System.out.println("**LinkedHashSet; ");
 		System.out.println(" ");
-//		Bütün elementleri listele;
+//		BÃ¼tÃ¼n elementleri listele;
 		for (String iller : il) {
 			System.out.println(iller);
 		}
 
-//LÝNKEDHASHSET:
+//LÄ°NKEDHASHSET:
 //Yinelenen element eklenmez.			
-//Elementler sýralýdýr(Eklendiði sýra)
-//Boþluk ve null eklenir.
+//Elementler sÄ±ralÄ±dÄ±r(EklendiÄŸi sÄ±ra)
+//BoÅŸluk ve null eklenir.
 System.out.println("----------------");
 
 
@@ -108,32 +108,32 @@ System.out.println("----------------");
 		numbers.add(7);
 		numbers.add(5);
 
-		// Ýlk elementi listele;
+		// Ä°lk elementi listele;
 //		System.out.println("Treeset: "+ numbers.first());
 
 		// son elementi listele;
 //		System.out.println("Treeset2: "+ numbers.last());
 
 		// Yinelenen element ekle
-//		numbers.add(11);  //ÖNEMLÝ NOT:ARTAN SIRA
+//		numbers.add(11);  //Ã–NEMLÄ° NOT:ARTAN SIRA
 
 		// null ekle
-//		numbers.add(null); //ÖNEMLÝ NOT:NULL EKLENMEZ
+//		numbers.add(null); //Ã–NEMLÄ° NOT:NULL EKLENMEZ
 
-		// Boþluk eklenmez
-//		//numbers.add(" ");	ÖNEMLÝ NOT:boþluk eklenmez	
+		// BoÅŸluk eklenmez
+//		//numbers.add(" ");	Ã–NEMLÄ° NOT:boÅŸluk eklenmez	
 
 		System.out.println("TreeSet; ");
 		System.out.println(" ");
-//		Bütün elementleri listele;
+//		BÃ¼tÃ¼n elementleri listele;
 		for (Integer number : numbers) {
 			System.out.println(number);
 		}
 
 //TREESET:	
 //Yinelenen element eklenmez.
-//Elementler artan sýrada saklanýr(ASC)		
-//Boþluk ve null eklenmez.	
+//Elementler artan sÄ±rada saklanÄ±r(ASC)		
+//BoÅŸluk ve null eklenmez.	
 System.out.println("----------------");
 
 
@@ -143,7 +143,7 @@ System.out.println("----------------");
 		///////////////
 
 		SortedSet<String> cars = new TreeSet<>();
-		cars.add("Tofaþ");
+		cars.add("TofaÅŸ");
 		cars.add("BMW");
 		cars.add("Mercedes");
 		cars.add("Togg");
@@ -152,30 +152,30 @@ System.out.println("----------------");
 //		cars.add("Volvo");
 //		cars.add("Audi");
 
-		// Ýlk Element;
-//		System.out.println("Ýlk Deðer: " + cars.first());
+		// Ä°lk Element;
+//		System.out.println("Ä°lk DeÄŸer: " + cars.first());
 
 		// Son Element;
-//		System.out.println("Son Deðer: " + cars.last());
+//		System.out.println("Son DeÄŸer: " + cars.last());
 
 		// null ekle;
 //		cars.add(null);
 
-		// boþluk ekle(baþa);
+		// boÅŸluk ekle(baÅŸa);
 //		cars.add(" ");
 
 		System.out.println("SortedSet; ");
 		System.out.println(" ");
-//		Bütün elementleri listele;
+//		BÃ¼tÃ¼n elementleri listele;
 		for (String car : cars) {
 			System.out.println(car);
 		}
 
 //SORTEDSET:
 //Yinelenen element eklenmez.		
-//Elementler artan sýrada saklanýr(ASC)		
+//Elementler artan sÄ±rada saklanÄ±r(ASC)		
 //null eklenmez	
-//Boþluk eklenir.
+//BoÅŸluk eklenir.
 		
 	}
 }
